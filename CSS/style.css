@@ -11,15 +11,76 @@ nav {
 }
 
 main {
-  background-color: #F8F4E3
+  background-color: #F8F4E3;
   height: 100vh;
 }
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #2A2B2A;
+  font-size: 1.8rem;
 }
 
 img {
   max-width: 400px;
 }
+
+.div1 {
+  width: 300px;
+  height:500;
+  border: 15px solid #E3B7B6;
+  padding: 50px;
+  margin: 20px;
+}
+
+.div2 {
+  width: 300px;
+  height: 500;
+  border: 15px solid #2A2B2A;
+  padding: 50px;
+  margin: 20px;
+}
+
+img {
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
